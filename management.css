@@ -1,68 +1,116 @@
+/* Reset Css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Page Header Section */
 .menu {
   display: flex;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
- align-items: center;
- height: 100px;
-
+  align-items: center;
+  height: 100px;
 }
-.nav1 {
-  width: 9%;
-}
-.nav2 , a {
-  
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
-.live {
-  padding: 0px 30px;
-}
-.nav3 {
-  border: solid #ff8866 2px;
-  background-color: white;
-  padding: 20px;
-}
-.orange{
-    color: #EA542A;
-}
-.back{
-  background-image: url(./at.jpg);
-  height: 50vw;
-  width: 100%;
-  background-size: 100% 100%;
-  color: #fff;
+.logo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; 
 }
-.front{
-  text-align: center;
-  line-height: 30px;
+.logo span:nth-child(1) {
+  color: #ea542a;
 }
-.text-4 , .text-5{
-  padding: 50px;
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation ul > li {
+  padding: 0 30px;
+}
 
+a {
+  color: black;
 }
-.head{
+
+.btn-header {
+  border: solid #ff8866 1px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.back {
+  background-image: url(./at.jpg);
+  height: 35vw;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.front {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  line-height: 60px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-items: end;
+}
+
+.parent > div {
+  width: 200px;
+  height: 200px;
+}
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: chocolate;
+}
+.box3 {
+  background-color: darkgray;
+}
+
+/* .head {
   display: flex;
   justify-content: space-around;
 }
-.but1{
+.but1 {
   margin-top: 30px;
 }
-.head-2{
+.head-2 {
   display: flex;
   justify-content: space-between;
   margin: 50px;
 }
-.head-3{
+.head-3 {
   display: flex;
   justify-content: space-around;
 }
-.parent{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
+  */
